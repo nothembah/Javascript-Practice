@@ -24,10 +24,36 @@ function larger_number(num1, num2){
     }
 }
 
+function word_check(word){
+    if(word.length > 6){
+        return "long";
+    } else if(word.length < 6){
+        return "short";
+    } else {
+        return "medium";
+    }
+}
+
+function count_e(word){
+    let counter = 0;
+
+    for(let i = 0; i < word.length; i++){
+        if(word[i] === 'e'){
+            counter++;
+        }
+    }
+
+    return counter;
+}
+
 let x = 33;
 let y = 10;
+
+let string = "Nothemba";
 
 console.log(is_div_by_5(x));
 console.log(either_only(x));
 console.log(larger_number(x,y));
 
+console.log(word_check(string));
+console.log(count_e(string));
