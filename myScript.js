@@ -16,7 +16,18 @@ function either_only(num){
     }
 }
 
+function larger_number(num1, num2){
+    if(num1 > num2){
+        return num1;
+    } else{
+        return num2;
+    }
+}
+
 let x = 33;
+let y = 10;
 
 console.log(is_div_by_5(x));
 console.log(either_only(x));
+console.log(larger_number(x,y));
+
