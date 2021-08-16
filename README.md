@@ -4,7 +4,7 @@ JS practice consisting of 5 functions:
 - Function that checks whether a number is a multiple of 5.
 - Function that checks whether a number is a multiple of 3 or 5 but not both.
 - Function that takes in two numbers and returns the largest.
-- Function that takes in a word and returns a strin describing it's length.
+- Function that takes in a word and returns a string describing it's length.
 - Function that returns the number of e's in a word.
 
 ## Built With
